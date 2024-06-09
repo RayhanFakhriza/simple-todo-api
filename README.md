@@ -1,3 +1,5 @@
+# Run Node API
+
 1. Run Migration
 `npx sequelize-cli db:migrate`
 
@@ -10,8 +12,8 @@ Example :
 3. Run Unit Test
 `npm run test`
 
-#########################################################################################33
-Docker 
+
+# Docker Part
 
 1. Build
 
@@ -27,7 +29,8 @@ Docker
 
 Example : `docker exec -it 4ec7e30f126c sh`
 
-For get container id
+## Run Into Container with Docker
+
 > 1. Run app by `docker composer up`
 > 2. Checking container id with command `docker container ls`
 > 3. Using container id for exec with using this command `docker exec -it <<container-id>> sh`
