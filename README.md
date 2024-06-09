@@ -35,6 +35,6 @@ Example : `docker exec -it 4ec7e30f126c sh`
 > 2. Checking container id with command `docker container ls`
 > 3. Using container id for exec with using this command `docker exec -it <<container-id>> sh`
 > 4. You can run sequelize for migrate / run seed in docker container
-> 5. If any changes in code you must re build (run command docker build) and execute `docker compose up again`
+> 5. If any changes in code you must re build (run command docker build) and execute `docker compose up` again
 
 
