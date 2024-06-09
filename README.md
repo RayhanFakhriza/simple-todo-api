@@ -1,16 +1,16 @@
 # Run Node API
 
 1. Run Migration
-`npx sequelize-cli db:migrate`
+- `npx sequelize-cli db:migrate`
 
 2. Run Seeder
-`npx sequelize db:seed --seed nameofseeder`
+- `npx sequelize db:seed --seed nameofseeder`
 
  - Example : 
     `npx sequelize db:seed --seed 20240609013355-todo-seeder.js`
 
 3. Run Unit Test
-`npm run test`
+- `npm run test`
 
 
 # Docker Part
