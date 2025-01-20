@@ -2,15 +2,15 @@
   "development": {
     "username": "postgres",
     "password": "root",
-    "database": "todoapidev",
-    "host": "dbpgsql",
+    "database": "todoapi",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "root",
     "database": "todoapi_test",
-    "host": "dbpgsql",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {

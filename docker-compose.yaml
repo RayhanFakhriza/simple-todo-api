@@ -25,3 +25,13 @@ services:
       - POSTGRES_DB
     networks:
       - app-tier
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - "./nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+    depends_on:
+      - todo-api
+    networks:
+      - app-tier
