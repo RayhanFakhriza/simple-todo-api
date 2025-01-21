@@ -1,10 +1,8 @@
-require('dotenv').config();
-
 const express = require('express');
 const app = express();
 const router = require('./routes')
 const errorHandler = require('./middlewares/error-handler')
-const port = process.env.PORT || 8010;
+const port = 8010;
 const cors = require('cors');
 
 app.use(cors());
